@@ -1,0 +1,29 @@
+{% load thumbnail %}
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="/media/cmsplugin_gallery/aino/galleria.js"></script>
+
+
+
+
+
+
+
+<div id="galleria" style="width:690px;height:490px;">>
+   
+   {% for image in images %}
+   <img alt="{{ image.alt }}" src={{ image.src.url }} title="{{ image.title }}">
+        
+{% endfor %}
+</div>
+
+
+
+
+
+
+<script>
+    // Load the classic theme
+    Galleria.loadTheme('/media/cmsplugin_gallery/aino/themes/classic/galleria.classic.js');
+    // Initialize Galleria
+    $('#galleria').galleria();
+</script>
