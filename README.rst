@@ -1,6 +1,8 @@
 ======================================
 DjangoCMS Gallery plugin (yet another)
 ======================================
+THIS FORK IS NOT MAINTAINED PLEASE USE:
+https://github.com/Troyhy/cmsplugin-filer-gallery
 
 Features
 --------
